@@ -2,6 +2,7 @@
   <div class="flex min-h-screen flex-col">
     <DefaultNavbar />
 
+    <HeroCarousel />
     <UContainer class="w-full">
       <NuxtPage />
     </UContainer>

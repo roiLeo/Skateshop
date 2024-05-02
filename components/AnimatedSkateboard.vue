@@ -10,7 +10,7 @@
       }"
       class="streak absolute left-0 h-0.5 w-1/5 bg-gradient-to-r from-transparent to-black/60 dark:to-white/40"></span>
     <span class="fish" :class="{ shake: fast, move: !fast }">
-      <span class="cursor-grab text-5xl">🐡</span>
+      <span class="cursor-grab text-5xl">🛹</span>
     </span>
   </div>
 </template>
