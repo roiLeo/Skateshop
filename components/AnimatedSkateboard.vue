@@ -9,7 +9,7 @@
         animationDuration: streakSpeed
       }"
       class="streak absolute left-0 h-0.5 w-1/5 bg-gradient-to-r from-transparent to-black/60 dark:to-white/40"></span>
-    <span class="fish" :class="{ shake: fast, move: !fast }">
+    <span class="skate" :class="{ shake: fast, move: !fast }">
       <span class="cursor-grab text-5xl">🛹</span>
     </span>
   </div>
@@ -21,11 +21,11 @@ const streakSpeed = computed(() => (fast.value ? '0.5s' : '2s'))
 </script>
 
 <style scoped>
-.fish.move {
+.skate.move {
   animation: move 1s linear infinite;
 }
 
-.fish.shake {
+.skate.shake {
   animation: shake 0.5s linear infinite;
 }
 

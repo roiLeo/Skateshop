@@ -5,9 +5,15 @@
       <div class="flex gap-1">
         <ColorPicker />
         <ColorModeButton />
-        <UButton color="gray" variant="ghost" size="md" icon="i-heroicons-shopping-bag" />
-        <UButton color="black" size="md" to="/login" label="My Account" />
+        <UButton color="gray" variant="ghost" icon="i-heroicons-shopping-bag" />
+        <UButton v-if="loggedIn" color="gray" icon="i-ph-power" @click="clear" />
+        <UButton v-else color="black" size="md" to="/login" label="My Account" />
       </div>
     </UContainer>
   </header>
 </template>
+
+
+<script setup lang="ts">
+const { loggedIn, clear } = useUserSession()
+</script>
