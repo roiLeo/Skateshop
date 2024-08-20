@@ -4,5 +4,16 @@ export default defineNuxtConfig({
   colorMode: {
     preference: 'dark',
     classSuffix: ''
+  },
+  runtimeConfig: {
+    public: {
+      providers: {
+        google: {
+          name: 'Google',
+          icon: '',
+          color: 'gray'
+        }
+      }
+    }
   }
 })
