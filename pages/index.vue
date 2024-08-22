@@ -28,3 +28,9 @@
     </div>
   </div>
 </template>
+
+<script lang="ts" setup>
+definePageMeta({
+  layout: 'default-landing'
+})
+</script>
