@@ -35,6 +35,6 @@
   "dependencies": {
     "@nuxt/ui": "^2.18.4",
     "@nuxtjs/i18n": "^8.5.1",
-    "nuxt-auth-utils": "^0.3.4"
+    "nuxt-auth-utils": "^0.3.7"
   }
 }
