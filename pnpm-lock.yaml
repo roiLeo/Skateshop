@@ -15,8 +15,8 @@ importers:
         specifier: ^8.5.1
         version: 8.5.2(magicast@0.3.5)(rollup@4.21.2)(vue@3.5.3(typescript@5.5.4))(webpack-sources@3.2.3)
       nuxt-auth-utils:
-        specifier: ^0.3.4
-        version: 0.3.6(magicast@0.3.5)(rollup@4.21.2)(webpack-sources@3.2.3)
+        specifier: ^0.3.7
+        version: 0.3.7(magicast@0.3.5)(rollup@4.21.2)(webpack-sources@3.2.3)
     devDependencies:
       '@nuxt/devtools':
         specifier: ^1.2.0
@@ -3257,8 +3257,8 @@ packages:
     engines: {node: ^16.10.0 || >=18.0.0}
     hasBin: true
 
-  nuxt-auth-utils@0.3.6:
-    resolution: {integrity: sha512-lNo0gM6saYZPe451qcK/Pbp2ky07E6gctydKYas9UcbmYVDV5utsQQhlivyhesxEXzYoymVV+62OCWIP+miH3w==}
+  nuxt-auth-utils@0.3.7:
+    resolution: {integrity: sha512-vD4wJJ9eDA0nn0Q9bXN83avUv7e4lTKHboq6Hrp916MxaazQx6AXmZ6M2lYvH46RTERiqq5TsVZa9+Lc6ZnMqA==}
 
   nuxt@3.13.1:
     resolution: {integrity: sha512-En0vVrCJWu54ptShUlrqOGzXTcjhX+RnHShwdcpNqL9kmE9FWqeDYnPTgt2gJWrYSvVbmjJcVfEugNo9XpNmHA==}
@@ -8378,7 +8378,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  nuxt-auth-utils@0.3.6(magicast@0.3.5)(rollup@4.21.2)(webpack-sources@3.2.3):
+  nuxt-auth-utils@0.3.7(magicast@0.3.5)(rollup@4.21.2)(webpack-sources@3.2.3):
     dependencies:
       '@nuxt/kit': 3.13.1(magicast@0.3.5)(rollup@4.21.2)(webpack-sources@3.2.3)
       defu: 6.1.4
